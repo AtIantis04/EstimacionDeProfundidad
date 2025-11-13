@@ -1,0 +1,35 @@
+# config/system_config.yml
+# Configuración del sistema de estimación de profundidad
+
+# Captura
+n_cameras: 1 #4 cuando tenga todas las camaras xD
+resolution: [640, 480]  # [width, height]
+fps: 30
+
+# Calibración
+calibration_file: "config/camera_params.yml"
+
+# Par estéreo principal
+stereo_pair: ["front", "right"]
+
+# Nube de puntos
+max_points: 50000
+pc_downsample: 2
+
+# Rangos de filtrado (metros)
+x_range: [-10, 10]
+y_range: [-3, 3]
+z_range: [0.5, 25]
+
+# Visualización
+viz_size: [600, 600]
+viz_scale: 30
+
+# Optimización
+use_fast_mode: true
+adaptive_resolution: true
+target_fps: 20
+
+# Rutas
+output_dir: "output"
+calibration_data_dir: "calibration_data"
