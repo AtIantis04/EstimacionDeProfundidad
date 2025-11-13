@@ -201,10 +201,10 @@ target_fps: 20
 ### Arquitectura del Sistema
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                   MAIN SYSTEM                            │
+│                   MAIN SYSTEM                           │
 ├─────────────────────────────────────────────────────────┤
-│                                                          │
-│  ┌──────────────┐    ┌──────────────┐                  │
+│                                                         │
+│  ┌──────────────┐    ┌──────────────┐                   │
 │  │   Camera     │───▶│  Calibrator  │                  │
 │  │   Capture    │    │              │                  │
 │  └──────────────┘    └──────────────┘                  │
@@ -410,19 +410,6 @@ Las contribuciones son bienvenidas. Por favor:
 - OpenCV Team por las herramientas de visión por computador
 - Hartley & Zisserman por "Multiple View Geometry in Computer Vision"
 - Comunidad de Python y Open Source
-
----
-
-## 📖 Citas
-
-```bibtex
-@mastersthesis{tunombre2025depth,
-  title={Sistema de Estimación de Profundidad Multi-Cámara para Entornos Vehiculares},
-  author={Atlantis04},
-  year={2025},
-  school={Tu Universidad}
-}
-```
 
 ---
 
