@@ -17,7 +17,6 @@ Sistema completo de visión por computador para estimación de profundidad y rec
 - [Documentación Detallada](#documentación-detallada)
 - [Estructura del Proyecto](#estructura-del-proyecto)
 - [Contribuciones](#contribuciones)
-- [Licencia](#licencia)
 
 ---
 
@@ -56,7 +55,7 @@ Sistema completo de visión por computador para estimación de profundidad y rec
 - OpenCV 4.5+ (con módulos contrib)
 - NumPy
 - PyYAML
-- Open3D (opcional, para visualización 3D avanzada)
+- Open3D
 
 ---
 
@@ -84,8 +83,8 @@ source venv/bin/activate
 pip install opencv-contrib-python==4.8.1.78
 pip install numpy
 pip install pyyaml
-pip install open3d  # Opcional
-pip install numba   # Opcional (acelera procesamiento)
+pip install open3d  
+pip install numba   
 ```
 
 ### 4. Configurar cámaras
@@ -98,10 +97,10 @@ python test_camera_ids.py
 Actualiza `src/camera_capture.py` con los índices correctos:
 ```python
 self.camera_ids = {
-    'front': 0,   # Tu índice aquí
-    'right': 1,   # Tu índice aquí
-    'back': 2,    # Tu índice aquí
-    'left': 3     # Tu índice aquí
+    'front': 0,   
+    'right': 1,   
+    'back': 2,    
+    'left': 3     
 }
 ```
 
